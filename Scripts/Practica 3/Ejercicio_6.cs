@@ -15,7 +15,7 @@ public class Ejercicio_6 : MonoBehaviour
   private Collider cubo;
   private bool cuboAlcanzado = false;
 
-  private void Awake()
+  private void Start()
   {
     esfera = GetComponent<Collider>();
     esferaRenderer = GetComponent<Renderer>();
