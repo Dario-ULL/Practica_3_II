@@ -10,7 +10,7 @@ public class Ejercicio_3 : MonoBehaviour
   private Color colorOriginal;
   private Renderer playerRenderer;
 
-  private void Awake()
+  private void Start()
   {
     playerRenderer = GetComponent<Renderer>();
     if (playerRenderer != null)
