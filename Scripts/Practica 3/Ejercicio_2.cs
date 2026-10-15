@@ -8,7 +8,7 @@ public class Ejercicio_2 : MonoBehaviour
   private Renderer myRenderer;
   private Renderer rend;
 
-  private void Awake()
+  private void Start()
   {
     myRenderer = GetComponent<Renderer>();    
   }
