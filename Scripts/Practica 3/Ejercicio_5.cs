@@ -10,7 +10,7 @@ public class Ejercicio_5 : MonoBehaviour
   private Rigidbody rb;
   private bool aplicarImpulso = false;
 
-  private void Awake()
+  private void Start()
   {
     rb = GetComponent<Rigidbody>();
   }
