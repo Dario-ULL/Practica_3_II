@@ -10,7 +10,7 @@ public class Ejercicio_1 : MonoBehaviour
   private float horizontalInput;
   private float verticalInput;
 
-  private void Awake()
+  private void Start()
   {
     rb = GetComponent<Rigidbody>();
   }
